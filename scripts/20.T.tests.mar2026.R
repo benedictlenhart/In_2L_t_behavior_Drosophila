@@ -10,15 +10,15 @@ library(readxl)
 library(foreach)
 
 setwd("/Users/supad/OneDrive/Documents/Bergland Research/R_data_objects/March_2024_objects/")
-exp7data = readRDS("exp1.data")
-exp6data = readRDS("exp2.data")
+exp7data = readRDS("exp1.pheno")
+exp6data = readRDS("exp2.pheno")
 
 setwd("/Users/supad/OneDrive/Documents/Bergland Research/R_data_objects/Jan_2024_objects/")
 
 
 #saveRDS(mergedata4, "simplephenodata")
 #merge in modeling data for lrc
-exp10data = readRDS("exp3.data")
+exp10data = readRDS("exp3.pheno")
 setwd("C:/Users/supad/OneDrive/Documents/Bergland Research/R_data_objects/Jan_2024_objects/dartdata")
 sleepdata = readRDS("sleepdatacompiledalltemp")
 setwd("/Users/supad/OneDrive/Documents/Bergland Research/R_data_objects/Jan_2025_objects//")
