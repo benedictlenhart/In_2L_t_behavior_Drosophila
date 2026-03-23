@@ -10,8 +10,8 @@ library(readxl)
 library(foreach)
 
 setwd("/Users/supad/OneDrive/Documents/Bergland Research/R_data_objects/March_2024_objects/")
-exp7data = readRDS("exp1.pheno")
-exp6data = readRDS("exp2.pheno")
+exp7data = readRDS("exp2.pheno")
+exp6data = readRDS("exp1.pheno")
 
 setwd("/Users/supad/OneDrive/Documents/Bergland Research/R_data_objects/Jan_2024_objects/")
 
