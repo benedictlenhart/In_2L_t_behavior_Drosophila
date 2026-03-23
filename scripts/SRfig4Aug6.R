@@ -8,7 +8,7 @@ library(stringr)
 
 setwd("Documents/Bergland Research/R_data_objects/Jan_2025_objects//")
 
-phendata = as.data.table(readRDS("fullprop"))
+phendata = as.data.table(readRDS("figure3data"))
 #filter and clean data
 phendata2 = phendata %>%
   # filter(sex == "male") %>% 
