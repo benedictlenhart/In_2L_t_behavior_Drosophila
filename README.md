@@ -3,7 +3,9 @@ Containing the data and scripts for the 2026 publication on In_2L_t's impact on 
 We have included the scripts used for analyzing the fly position data, constructing activity and startle response phenotypes, statistical analysis, and figure creation.
 We have also included the raw position data annotated with the fly genotypes, in addition to phenotype data that is organized at the individual level. We have included the simplified data objects used to reconstruct the figures used in the publications. 
 Additionaly, we include the script for our re-analysis of the Lee 2017 along with the relevant data from this publication.
+
 Data processing pipeline:
+
 Scripts 01-03. – Inputs exp[1-3]behaviordataRAW, output exp[1-3]behaviordataPROCESSED
 Reads in the locomotion data from the DART, and estimates the baseline speed of individual flies before the first stimilu, their duration of startle response after each stimulus, and their magnitude of startle response after each stimilu. Saves individual, stimuli specific data. 
 Script 04. – Inputs exp[1-3]behaviordataPROCESSED, output activity.startle.phenotyes.FINAL and figuredataFINAL
