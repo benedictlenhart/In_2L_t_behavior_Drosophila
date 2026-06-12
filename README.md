@@ -42,4 +42,4 @@ Script 13-15. Inputs, figuredataFINAL & positionsFINAL
 
 Creatures the publications figures. Loads in the individual level phenotype data, and creates one layer a) that finds the mean and 95% confidence intervals for the given phenotype across sex, genotype, and temperature groups, and a second layer b) that shows the raw phenotype data. Both layers are graphed together, to illustrate differences in phenotype across experimental groups, as well as distributions within the raw data. Significant differences are marked by the inclusion of brackets, with asterixis often added in later by image editing. 
 
-<img width="468" height="630" alt="image" src="https://github.com/user-attachments/assets/e9fff1ae-ab4f-4951-b96d-743ddb7b281d" />
+
